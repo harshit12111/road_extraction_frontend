@@ -9,7 +9,7 @@
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     z-index: 10000; /* Ensure it's above everything else */
     overflow-y: auto; /* Enable vertical scrolling */
-  max-height: 100vh; /* Ensures the sidebar stays within the viewport height */
+    max-height: 100vh; /* Ensures the sidebar stays within the viewport height */
   }
   
   .close-btn {
@@ -30,9 +30,10 @@
     font-size: 16px;
   }
 
-  .before_image{
+  .image{
     width: 90%;
     margin-bottom: 20%;
+    cursor: pointer;
   }
 
   /* Scrollbar styling */
